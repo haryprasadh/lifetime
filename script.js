@@ -25,3 +25,11 @@ function shareQuote(){
         alert("Sharing is not supported in this browser");
     }
 }
+
+
+
+setInterval(()=>{
+    let d= new Date();
+    let time=document.getElementById('time');
+    time.innerHTML=`current time is ${d.getHours()} hrs:${d.getMinutes()} mins:${d.getSeconds()} secs:${d.getMilliseconds()} msecs`;
+},1);
