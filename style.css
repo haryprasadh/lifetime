@@ -45,6 +45,7 @@ button{
     display:flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #logo{
@@ -64,6 +65,15 @@ button{
     margin-top: 2px;
 }
 
-#timetitle{
-    margin-bottom: 25px;
+#time{
+    margin-top: 23px;
+}
+
+#timerup{
+    display: flex;
+    flex-direction: row;
+}
+
+h4{
+    margin:20px;
 }
