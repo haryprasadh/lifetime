@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>quotes-app</title>
+    <title>lifeTime</title>
     <link rel="stylesheet" href="style.css" class="css">
 </head>
 <body>
+    <!-- navbar -->
+    <div class="navbar">
+        <img id="logo" src="./assets/logo.png" alt="logo" />
+        <h1 id="titleofthepage">lifeTime</h1>
+    </div>
+
+    <!-- time container -->
+    <div class="timeContainer">
+        <h2 id="timetitle">Time:</h2>
+        <h3 id="time"></h3>
+    </div>
+
+    <!-- quote container -->
     <p>QUOTE OF THE MOMENT:</p>
-    <div>
-        <h2 id="time"></h2>
+    <div class="quoteContainer">
         <h1 id="content"></h1>
         <h3 id="author"></h3>
         <div class="using">
@@ -17,7 +29,10 @@
             <button onclick="shareQuote()">SHARE QUOTE</button>
         </div>
     </div>
-    <!-- <img src="author-pic-url" alt="author-pic" height="200px"> -->
+
+    <!-- footer -->
+
+
     <script src="script.js"></script>
 </body>
 </html>
