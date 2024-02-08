@@ -36,3 +36,8 @@ setInterval(()=>{
     let time=document.getElementById('time');
     time.innerHTML=`${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}:${d.getMilliseconds()}`;
 },1);
+
+//current year
+let d2=new Date();
+let currentyear=document.getElementById('currentyear');
+currentyear.innerHTML=d2.getFullYear();

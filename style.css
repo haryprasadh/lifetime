@@ -77,3 +77,14 @@ button{
 h4{
     margin:20px;
 }
+
+#note{
+    font-weight:bolder;
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(85, 143, 143);
+    gap:5px;
+    justify-content: center;
+}
